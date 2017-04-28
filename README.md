@@ -1,3 +1,4 @@
 # TensorFlow
-Introduction to TensorFlow 
-There are a few basic tensorflow codes that would help one understand the basic operations of tensorflow. These codes give insight into how tensorflow can be used in building more complex netwroks. 
+Introduction to TensorFlow.
+
+There are a few basic tensorflow codes that would help one understand the basic operations of tensorflow. One who wishes to learn TensorFlow can look into these code snippets. They give an insight into basic such as creating variables, working with arrays and stuff, creating sessions etc. It is highly recommended to start with these before trying to build complex DNNs. 
