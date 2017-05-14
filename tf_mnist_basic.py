@@ -4,6 +4,8 @@
 Created on Wed May  3 19:26:04 2017
 
 @author: Skanda Bharadwaj
+
+@topic: Basic MNIST classification using Softmax Regression
 """
 
 #%% Download and fetch input data 
