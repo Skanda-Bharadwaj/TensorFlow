@@ -4,18 +4,22 @@
 Created on Sat Apr 29 11:23:44 2017
 
 @author: SkandaBharadwaj
+
+@topic: Sloving linear equations 
 """
-#%%Sloving linear equations 
-#(To find the equation of a lin given 2 points)
+#%% To find the equation of a lin given 2 points)
+
+#Import libraries
 import tensorflow as tf
 
-#Define the two points (x1, y1) and (x2, y2)
+#%% Define the two points (x1, y1) and (x2, y2)
 x1 = tf.constant(2, dtype=tf.float32)
 y1 = tf.constant(1, dtype=tf.float32)
 
 x2 = tf.constant(1, dtype=tf.float32)
 y2 = tf.constant(-1, dtype=tf.float32)
 
+#%%
 #Equation of a line is y = mx + c
 #y1 = mx1 + c, y2 = mx2 + c -- OR -- y1 - mx1 = c, y2 - mx2 = c;
 #(1/c)y1 - (m/c)x1 = 1,(1/c)y2 - (m/c)x2 = 1;

@@ -3,6 +3,8 @@
 Created on Tue Apr 25 09:43:49 2017
 
 @author: Skanda Bharadwaj
+
+@topic: Basic units of TensorFlow
 """
 
 #%% Import the libraries
