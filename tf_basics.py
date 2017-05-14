@@ -61,4 +61,16 @@ print(sess.run(mat), '\n')
 print('result')
 print(sess.run(tf.slice(mat, [0, 0, 0], [1, 1, 3])))
 print(sess.run(tf.slice(mat, [1, 0, 0], [1, 2, 3])))
-print(sess.run(tf.slice(mat, [1, 0, 0], [2, 1, 3])))
+print(sess.run(tf.slice(mat, [1, 0, 0], [2, 2, 2])))
+
+#%% tf.reshape example
+x = np.array([[[1, 2, 1], [2, 3, 2]], 
+              [[3, 4, 3], [4, 5, 4]], 
+              [[5, 6, 5], [6, 7, 6]]])
+
+x = tf.Variable(x, name='x')
+sess = tf.Session()
+sess.run(tf.global_variables_initializer())
+print(sess.run(tf.reshape(sess.run(x), [-1])))
+print(sess.run(tf.reshape(sess.run(x), [-1, 2])))
+print(sess.run(tf.reshape(sess.run(x), [2, -1])))
